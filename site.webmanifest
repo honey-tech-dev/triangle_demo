@@ -1,0 +1,21 @@
+
+{
+  "name": "Triangle Coating",
+  "short_name": "Triangle",
+  "icons": [
+    {
+      "src": "/uploads/da77465a-d245-43de-bed0-984978e9de06.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/uploads/ad1f1b90-d3f8-4778-95f3-4612815cf36b.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#1E3A8A",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/"
+}
