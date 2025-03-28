@@ -22,6 +22,22 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
-# Disallow crawling of any future admin area
+User-agent: LinkedInBot
+Allow: /
+
+# Disallow crawling of any future admin areas
 User-agent: *
 Disallow: /admin/
+Disallow: /private/
+Disallow: /includes/
+Disallow: /temp/
+Disallow: /cgi-bin/
+
+# Allow specific file types
+User-agent: Googlebot-Image
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.webp$
+Allow: /*.svg$
